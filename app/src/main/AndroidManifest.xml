@@ -16,9 +16,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".BackgroundServiceExample"
+            android:name=".BoundServiceExample"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".IntentServiceExampleTwo"
+            android:exported="false" />
+        <service
+            android:name=".IntentServiceExample"
+            android:exported="false" />
+        <service
+            android:name=".BackgroundServiceExample"
+            android:enabled="true"
+            android:exported="true" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
